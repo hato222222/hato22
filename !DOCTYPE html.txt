@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三人のキリスト - 紹介ページ</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        header {
+            background-color: #4682b4;
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        main {
+            padding: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .intro {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: #4682b4;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #5a9bd4;
+        }
+
+        .characters {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .character-card {
+            background: #fff;
+            padding: 1.5rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+        }
+
+        .character-card h3 {
+            margin-top: 0;
+            color: #4682b4;
+        }
+
+        .character-card p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>三人のキリスト - ストーリー紹介</header>
+    <main>
+        <div class="intro">
+            <p>「三人のキリスト」は、ユニークで深いテーマを持つ短編ストーリーです。冷静なヨハネ、熱血なペテロ、そして自由奔放なマリアという三人が、それぞれ自分こそがキリストだと主張します。心理学的で哲学的な対話が織り成す物語をお楽しみください。</p>
+            <a href="three_christs_story.html" class="button">ストーリーを読む</a>
+        </div>
+
+        <section class="characters">
+            <div class="character-card">
+                <h3>ヨハネ</h3>
+                <p>冷静で理性的。自分が「真のキリスト」だと確信している。</p>
+            </div>
+            <div class="character-card">
+                <h3>ペテロ</h3>
+                <p>熱血で情熱的。自分こそがキリストの「本当の再臨」だと信じている。</p>
+            </div>
+            <div class="character-card">
+                <h3>マリア</h3>
+                <p>自由奔放で少し風変わり。自分は「女性としてのキリスト」だと思っている。</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
